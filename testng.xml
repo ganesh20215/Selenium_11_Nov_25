@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="testng.retryfailscript.IAnnotation"/>
+    </listeners>
+    <test verbose="10" parallel="false" thread-count="3" preserve-order="true" name="D:/repo1/clone/TestFolder/Demo/Selenium_11_Nov_25">
+        <classes>
+            <class name="testng.basics.PriorityExample"/>
+        </classes>
+    </test>
+</suite>
