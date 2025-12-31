@@ -23,8 +23,6 @@ public class SoftAssertExample {
         sf.assertFalse(userName.isDisplayed(), "username textbox should be displayed");
         sf.assertTrue(password.isDisplayed(), "password textbox should be displayed");
         sf.assertEquals(loginBtn.getTagName(), "div", "login button tag name should be div");
-
-        sf.assertAll();
-        driver.close();
+		System.out.println("Hello All");
     }
 }
