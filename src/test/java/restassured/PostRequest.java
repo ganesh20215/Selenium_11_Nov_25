@@ -10,6 +10,7 @@ public class PostRequest {
 
     @Test
     public void verifyPostMethod(){
+        System.out.println("Hello Good Morning");
         RestAssured.baseURI = "https://restful-booker.herokuapp.com";
         JSONObject js = new JSONObject();
         JSONObject js2 = new JSONObject();

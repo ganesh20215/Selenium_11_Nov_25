@@ -21,6 +21,5 @@ public class IsEnabledMethod {
         enableBtn.click();
         System.out.println(textBox.isEnabled());    //true
 
-        driver.close();
     }
 }
