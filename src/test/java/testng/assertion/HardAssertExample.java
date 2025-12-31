@@ -21,7 +21,5 @@ public class HardAssertExample {
         Assert.assertFalse(userName.isDisplayed());
         Assert.assertTrue(password.isDisplayed());
         Assert.assertEquals(loginBtn.getTagName(), "input");
-
-        driver.close();
     }
 }
