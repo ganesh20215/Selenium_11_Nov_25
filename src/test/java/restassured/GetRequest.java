@@ -28,5 +28,7 @@ public class GetRequest {
         sf.assertNotNull(response.jsonPath().getString("[0].bookingid"));
         sf.assertNotNull(response.jsonPath().getString("[1].bookingid"));
         sf.assertAll();
+        System.out.println("Hello Java");
     }
 }
+
